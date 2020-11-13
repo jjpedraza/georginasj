@@ -1,0 +1,150 @@
+/*
+Theme Name:     Easy Shop
+Theme URI:      https://mysterythemes.com/wp-themes/easy-shop
+Author:         Mystery Themes
+Author URI:     https://mysterythemes.com
+Description:    Easy Shop is a child theme of Easy Store which beautifully design e-commerce theme fully compatible with most popular WooCommerce plugin. The theme comes with clean and elegant design and developer friendly. It is fully responsive, translation ready, SEO friendly and compatible with WooCommerce, YITH WooCommerce Wishlist and popular plugin. Use this theme for your e-commerce website, you will feel the best ever experience.
+Version:        1.0.1
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       easy-store
+Text Domain:    easy-shop
+Tags:           e-commerce, food-and-drink, entertainment, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, threaded-comments, translation-ready
+*/
+
+body,
+button,
+input,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+.single .byline,
+.group-blog .byline,
+.posted-on,
+.blog-author,
+.blog-cat{
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-branding {
+	margin: 10px 0;
+}
+
+.es-slider-section .es-image-holder img {
+	width: 100%;
+}
+
+.easy_store_slider .es-section-wrapper {
+	padding-top: 0;
+}
+
+.es-slider-cat-menu .product-categories a {
+	font-size: 14px;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.es-top-header-wrap {
+	background: #FA5555;
+	padding: 8px 0;
+}
+
+body .es-top-header-wrap .item-icon {
+	color: #fff;
+}
+
+.es-top-header-wrap .item-info,
+.es-social-icons-wrapper .social-link a{
+	color: #fff;
+}
+
+#masthead .es-main-menu-wrapper .mt-container {
+	background: none;
+}
+
+.es-home-icon {
+	display: none;
+}
+
+#site-navigation ul li a {
+	color: #333;
+}
+
+#site-navigation ul#primary-menu > li:first-child a {
+	padding-left: 0;
+}
+
+.is-sticky #site-navigation ul#primary-menu > li:first-child a{
+    padding-left: 20px;
+}
+
+#site-navigation ul ul li a,
+.is-sticky #site-navigation ul li a{
+    color: #fff;
+}
+
+#masthead #site-navigation ul li.current-menu-item > a, 
+#masthead #site-navigation ul li:hover > a, 
+#masthead #site-navigation ul li.current_page_ancestor > a{
+    background: none;
+    color:#E63737 !important;
+}
+
+#masthead #site-navigation ul ul li.current-menu-item > a, 
+#masthead #site-navigation ul ul li:hover > a, 
+#masthead #site-navigation ul ul li.current_page_ancestor > a{
+    background: none;
+    color:#fff !important;
+}
+
+#masthead .is-sticky #site-navigation ul li.current-menu-item > a, 
+#masthead .is-sticky #site-navigation ul li:hover > a, 
+#masthead .is-sticky #site-navigation ul li.current_page_ancestor > a{
+    color: #fff !important;
+    background: #E63737;
+}
+
+.woocommerce ul.products {
+	text-align: center;
+	width: 100%;
+}
+
+.cta-content-wrapper {
+	width: 100%;
+	text-align: center;
+}
+
+.cta-content {
+	font-weight: 700;
+	color: #fff;
+	font-size: 52px;
+	font-weight: 900;
+}
+
+@media (max-width: 768px) {
+.menu-toggle {
+	color: #333 !important;
+}
+.es-main-menu-wrapper .menu-toggle:hover {
+	background: none !important;
+	color: #e63737 !important;
+}
+#site-navigation ul#primary-menu > li:first-child a {
+	padding-left: 20px;
+}
+#site-navigation ul li a{
+    color: #fff;
+}
+body #masthead #site-navigation ul li.current-menu-item > a, 
+body #masthead #site-navigation ul li:hover > a, 
+body #masthead #site-navigation ul li.current_page_ancestor > a{
+    color: #fff !important;
+    background: #e63737 !important;
+}
+}
